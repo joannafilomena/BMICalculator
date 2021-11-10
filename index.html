@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Kalkulator BMI</title>
+</head>
+
+<body>
+    <form>
+        <h1>Kalkulator BMI</h1>
+        <label><input type="number" class="js-height" required placeholder="Wpisz wzrost (cm)"></label><br>
+        <label><input type="number" class="js-weight" required placeholder="Wpisz wagę (kg)"></label><br>
+        <div class="buttons">
+            <button type="submit" class="sumButton">Policz</button>
+            <button type="reset" class="resetButton">Wyczyść</button>
+        </div>
+    </form>
+    <p>Twoje BMI wynosi <b><span class="bmiSubmit">N/A</span></b>.</p>
+    <p><span class="bmiType">Wpisz wzrost i wagę, aby dowiedzieć się, co oznacza Twoje BMI.</span></p>
+</body>
+
+</html>

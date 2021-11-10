@@ -1,0 +1,48 @@
+body, input, button {
+    text-align: center;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(237, 252, 243);
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    
+}
+
+input {
+    background-color: white;
+    border: 1px solid rgb(219, 217, 217);
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(225, 250, 236);
+    color: white;
+    border-radius: 50em;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.521);
+    transition-duration: 0.2s;
+}
+
+button:active {
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+.buttons {
+    margin: auto;
+    display: flex;
+    width: 174px;
+    justify-content: space-between;
+}
+
+p {
+    margin: auto;
+    width: 200px;
+    padding-top: 20px;
+}
+
